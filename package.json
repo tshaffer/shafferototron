@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "shaffer photo viewer",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Ted Shaffer",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch"
+  },
   "dependencies": {
     "axios": "^0.12.0",
     "json-loader": "^0.5.4",
